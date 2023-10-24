@@ -1,9 +1,18 @@
 const pokemonCount = 151;
-var pokemon = {}; // { 1 : { "name" : "bulsaur", "img" : url, "type" : ["grass, "poison"], "description" : "blabla"} }
+var pokedex = {}; // { 1 : { "name" : "bulsaur", "img" : url, "type" : ["grass, "poison"], "description" : "blabla"} }
 
 // when the page loads, get the first pokemon
 window.onload = async function() {
-    getPokemon(1);
+    // getPokemon(1);
+    for (let i = 1; i <= pokemonCount; i++) {
+        await getPokemon(i);
+        // <div id="1" class="pokemon-name">BULBASAUR</div>
+        let pokemon = document.createElement("div");
+        pokemon.id = i;
+        pokemon.innerText = i.toString() + ". " + pokedex[i]["name"].toUpperCase();
+        pokemon.classList.add("pokemon-name");
+        document.getElementById("pokemon-list").appendChild(pokemon);
+    }
 
     console.log(pokedex);
 }
