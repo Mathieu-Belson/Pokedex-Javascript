@@ -59,21 +59,25 @@ body {
 .normal {
     background-color: beige;
     color: white;
+    padding: 2% 3%;
 }
 
 .fire {
     background-color: orange;
     color: white;
+    padding: 2% 3%;
 }
 
 .grass {
     background-color: green;
     color: white;
+    padding: 2% 3%;
 }
 
 .water {
     background-color: blue;
     color: white;
+    padding: 2% 3%;
 }
 
 .ice {
@@ -84,6 +88,7 @@ body {
 .electric {
     background-color: gold;
     color: black;
+    padding: 2% 3%;
 }
 
 .fighting {
@@ -94,11 +99,13 @@ body {
 .flying {
     background-color: skyblue;
     color: black;
+    padding: 2% 3%;
 }
 
 .bug {
     background-color: yellowgreen;
     color: white;
+    padding: 2% 3%;
 }
 
 .ghost {
@@ -109,34 +116,42 @@ body {
 .rock {
     background-color: sienna;
     color: white;
+    padding: 2% 3%;
 }
 
 .steel {
     background-color: silver;
     color: black;
+    padding: 2% 3%;
 }
 
 .dark {
     background-color: darkgray;
     color: white;
+    padding: 2% 3%;
 }
 
 .psychic {
     background-color: palevioletred;
     color: white;
+    padding: 2% 3%;
 }
 
 fairy {
     background-color: pink;
     color: black;
+    padding: 2% 3%;
 }
 
 .dragon {
     background-color: teal;
     color: white;
+    padding: 2% 3%;
 }
 
 .poison {
     background-color: darkviolet;
     color: white;
+    padding: 2% 3%;
+    
 }
