@@ -11,6 +11,7 @@ window.onload = async function() {
         pokemon.id = i;
         pokemon.innerText = i.toString() + ". " + pokedex[i]["name"].toUpperCase();
         pokemon.classList.add("pokemon-name");
+        pokemon.addEventListener("click", updatePokemon);
         document.getElementById("pokemon-list").appendChild(pokemon);
     }
 
@@ -43,3 +44,24 @@ async function getPokemon(num) {
 
 }
 
+function updatePokemon() {
+    document.getElementById("pokemon-img").src = pokedex[this.id]["img"];
+
+
+    // clear previous pokemon types on the left side
+    let typesDiv = document.getElementById("pokemon-types");
+    while (typesDiv.firstChild) {
+        typesDiv.firstChild.remove();
+    }
+
+    // update types
+
+    let types = pokedex[this.id]["types"];
+    for (let i = 0; i < types.length; i++) {
+        let type = document.createElement("span");
+        type.innerText = types[i]["type"]["name"].toUpperCase();
+        type.classList.add("type.box");
+        type.classList.add(types[i]["type"]["name"]); // adds background color and font color
+        typesDiv.appendChild(type);
+    }
+}

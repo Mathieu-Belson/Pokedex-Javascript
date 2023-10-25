@@ -17,6 +17,7 @@ body {
     width: 250px;
     height: 500px;
     background-color: cyan;
+    text-align: center;
 }
 
 #pokemon-list {
@@ -25,4 +26,117 @@ body {
     background-color: yellow;
     font-size: 18px;
     overflow-y: auto; /* This is to make the list scrollable */
+}
+
+.pokemon-name {
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+#pokemon-info img {
+    width: 160px;
+    height: 160px;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#pokemon-types {
+    margin-top: 10px;
+}
+
+.type-box {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.normal {
+    background-color: beige;
+    color: white;
+}
+
+.fire {
+    background-color: orange;
+    color: white;
+}
+
+.grass {
+    background-color: green;
+    color: white;
+}
+
+.water {
+    background-color: blue;
+    color: white;
+}
+
+.ice {
+    background-color: lightblue;
+    color: white;
+}
+
+.electric {
+    background-color: gold;
+    color: black;
+}
+
+.fighting {
+    background-color: brown;
+    color: white;
+} 
+
+.flying {
+    background-color: skyblue;
+    color: black;
+}
+
+.bug {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.ghost {
+    background-color: purple;
+    color: white;
+}
+
+.rock {
+    background-color: sienna;
+    color: white;
+}
+
+.steel {
+    background-color: silver;
+    color: black;
+}
+
+.dark {
+    background-color: darkgray;
+    color: white;
+}
+
+.psychic {
+    background-color: palevioletred;
+    color: white;
+}
+
+fairy {
+    background-color: pink;
+    color: black;
+}
+
+.dragon {
+    background-color: teal;
+    color: white;
+}
+
+.poison {
+    background-color: darkviolet;
+    color: white;
 }
