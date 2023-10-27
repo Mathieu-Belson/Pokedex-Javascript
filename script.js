@@ -14,7 +14,7 @@ window.onload = async function() {
         pokemon.addEventListener("click", updatePokemon);
         document.getElementById("pokemon-list").appendChild(pokemon);
     }
-
+    document.getElementById("pokemon-description").innerText = pokedex[1]["desc"];
     console.log(pokedex);
 }
 
@@ -66,5 +66,5 @@ function updatePokemon() {
     }
 
     // update description
-    document.getElementById("pokemon-decription").innerText = pokedex[this.id]["desc"];
+    document.getElementById("pokemon-description").innerText = pokedex[this.id]["desc"];
 }
