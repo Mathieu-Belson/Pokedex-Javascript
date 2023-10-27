@@ -8,7 +8,7 @@ body {
     width: 500px;
     height: 500px;
     border: 10px solid rgb(134, 173, 242);
-    border-radius: 10px;
+    border-radius: 30px;
     /* background-color: green; */
     display: flex;
     margin: 0 auto;
