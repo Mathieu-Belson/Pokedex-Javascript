@@ -50,108 +50,118 @@ body {
 }
 
 .type-box {
-    padding: 5px;
+    padding: 3px;
     margin: 5px;
     border: 1px solid white;
     border-radius: 10px;
+    
 }
 
 .normal {
     background-color: beige;
-    color: white;
-    padding: 2% 3%;
+    color: black;
+    padding: 2% 4%;
 }
 
 .fire {
     background-color: orange;
     color: white;
-    padding: 2% 3%;
+    padding: 2% 4%;
+    
 }
 
 .grass {
     background-color: green;
     color: white;
-    padding: 2% 3%;
+    padding: 2% 4%;
 }
 
 .water {
     background-color: blue;
     color: white;
-    padding: 2% 3%;
+    padding: 2% 4%;
 }
 
 .ice {
     background-color: lightblue;
-    color: white;
+    color: black;
+    padding: 2% 4%;
 }
 
 .electric {
     background-color: gold;
     color: black;
-    padding: 2% 3%;
+    padding: 2% 4%;
 }
 
 .fighting {
-    background-color: brown;
+    background-color: darkred;
     color: white;
-} 
+    padding: 2% 4%;
+}
 
 .flying {
     background-color: skyblue;
     color: black;
-    padding: 2% 3%;
+    padding: 2% 4%;
 }
 
 .bug {
     background-color: yellowgreen;
     color: white;
-    padding: 2% 3%;
+    padding: 2% 4%;
 }
 
 .ghost {
     background-color: purple;
     color: white;
+    padding: 2% 4%;
 }
 
 .rock {
     background-color: sienna;
     color: white;
-    padding: 2% 3%;
+    padding: 2% 4%;
+}
+
+.ground {
+    background-color: burlywood;
+    color: black;
+    padding: 2% 4%;
 }
 
 .steel {
     background-color: silver;
     color: black;
-    padding: 2% 3%;
+    padding: 2% 4%;
 }
 
 .dark {
     background-color: darkgray;
     color: white;
-    padding: 2% 3%;
+    padding: 2% 4%;
 }
 
 .psychic {
     background-color: palevioletred;
     color: white;
-    padding: 2% 3%;
+    padding: 2% 4%;
 }
 
-fairy {
+.fairy {
     background-color: pink;
     color: black;
-    padding: 2% 3%;
+    padding: 2% 4%;
 }
 
 .dragon {
     background-color: teal;
     color: white;
-    padding: 2% 3%;
+    padding: 2% 4%;
 }
 
 .poison {
     background-color: darkviolet;
     color: white;
-    padding: 2% 3%;
-    
+    padding: 2% 4%;
 }

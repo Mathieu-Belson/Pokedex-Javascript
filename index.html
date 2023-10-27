@@ -1,32 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--this means that the width of the device is the same as the width of the page and the initial zoom level is 1.0. Viewport is the user's visible area of a web page.-->
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Pokédex with Javascript</title>
-</head>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--this means that the width of the device is the same as the width of the page and the initial zoom level is 1.0. Viewport is the user's visible area of a web page.-->
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Pokédex with Javascript</title>
+    </head>
 
-<body>
-    <div id="content-box">
-        <!-- Left side, display pokemon info -->
-        <div id="pokemon-info">
-            <img id="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">
-            <div id="pokemon-types">
-                <span class="type-box grass">GRASS</span> <span class="type-box poison">POISON</span>
+    <body>
+        <div id="content-box">
+            <!-- Left side, display pokemon info -->
+            <div id="pokemon-info">
+                <img id="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">
+                <div id="pokemon-types">
+                    <span class="type-box grass">GRASS</span><span class="type-box poison">POISON</span>
+                </div>
+                <div id="pokemon-description"></div>
             </div>
-            <div id="pokemon-description"></div>
+            <!-- Right side, pokemon list-->
+            <div id="pokemon-list">
+            </div>
         </div>
-        <!-- Right side, pokemon list-->
-        <div id="pokemon-list">
-            
-        </div>
-    </div>
-
-
-
-
-
-</body>
+    </body>
 </html>
+
